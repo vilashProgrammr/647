@@ -11,7 +11,7 @@ if(isset($_POST['btn-update']))
 	// variables for input data
 	$first_name = $_POST['first_name'];
 	$last_name = $_POST['last_name'];
-	$city_name = $_POST['city_name'];sa
+	$city_name = $_POST['city_name'];
 
 	/* Uncomment the below block to enable edit functionality 	
 	$sql_query = "UPDATE users SET first_name='$first_name',last_name='$last_name',user_city='$city_name' WHERE user_id=".$_GET['edit_id'];
